@@ -1,5 +1,6 @@
 #include <iostream>
 #include<limits>
+#include "vin.h"
 using namespace std;
 int main() {
 	string name;//the string of thename of prodagonist
