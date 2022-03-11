@@ -70,27 +70,27 @@ int main() {
 		case '1':
 			system("cls");
 			cout << "Excellent choice!\nEurope is amazing!";
-			validInput = true; break;// first choice
+			validchoice = true; break;// first choice
 		case'2':
 			system("cls");
 			cout << "Excellent choice!\nAfrica is amazing!"; 
-			validInput = true; break;//second choice
+			validchoice = true; break;//second choice
 		case'3':
 			system("cls");
 			cout << "Excellent choice!\nAsia is amazing!";
-			validInput = true; break;//third choice
+			validchoice = true; break;//third choice
 		case'4':
 			system("cls");
 			cout << "Excellent choice!\nNorth America is amazing!"; 
-			validInput = true; break;//fourth choice
+			validchoice = true; break;//fourth choice
 		case'5':
 			system("cls");
 			cout << "Excellent choice!\nSouth America is amazing!";
-			validInput = true; break;//fifth choice
+			validchoice = true; break;//fifth choice
 		case'6':
 			system("cls");
 			cout << "Excellent choice!\nOceania is amazing!";
-			validInput = true; break;//sixth choice
+			validchoice = true; break;//sixth choice
 		default:
 			system("cls");
 			cout << "Naaah you can't do that, TRY AGAIN: ";
