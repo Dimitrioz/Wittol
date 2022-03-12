@@ -9,7 +9,7 @@ int main() {
 	string name;//the string of thename of prodagonist
 	string country;//the stgring of the counntry of prodagoniost
 	int age = 100000;//the intigure of age
-	cout << "Please,ender your name: ";//here the player has to add a name
+	cout << "Please,enter your name: ";//here the player has to add a name
 	cin >> name;//here the computer will read the name
 	system("cls");
 	cout << "Wellcome to Wittol," << name;//wellcome message for the player
