@@ -1,3 +1,4 @@
+//CONSOLE GAME PROJECT BETA VERSION BT DIMI AND VIN
 #include <iostream>
 #include<limits>
 #include <string>
@@ -6,19 +7,19 @@
 
 using namespace std;
 int main() {
-	string name;//the string of thename of prodagonist
-	string country;//the stgring of the counntry of prodagoniost
-	int age = 100000;//the intigure of age
-	cout << "Please,enter your name: ";//here the player has to add a name
-	cin >> name;//here the computer will read the name
+	string name;
+	string country;
+	int age = 100000;
+	cout << "Please,enter your name: ";
+	cin >> name;
 	system("cls");
-	cout << "Wellcome to Wittol," << name;//wellcome message for the player
-	cout << "\nWhere are you from " << name << "?: ";//the player must complete where is from
-	cin >> country;//the computer reads the country the player is from
+	cout << "Wellcome to Wittol," << name;
+	cout << "\n\nWhere are you from " << name << "?: ";
+	cin >> country;
 	system("cls");
 	cout << "OMG i love " << country;
 	bool validInput = false;//if the age is wrong 
-	cout << "\nHow old are you?: ";//the age the player must submit 
+	cout << "\n\nHow old are you?: ";
 	while (!validInput)// the loop for the age
 	{
 		if (cin >> age)
@@ -56,16 +57,16 @@ int main() {
 	string food;//we asking fav food
 	string sport;
 	char choice;
-	cout << "\nWhat is your favorite food: ";
+	cout << "\nWhat is your favorite food "<<name<<"?: ";
 	cin >> food;
 	system("cls");
 	cout << "OMG,i like " << food << " a lot, kinda spicy tho";
-	cout << "\nSo,what is your favorite sport?: ";// we asking fav spor
+	cout << "\n\nSo,what is your favorite sport?: ";// we asking fav spor
 	cin >> sport;
 	system("cls");
 	cout << sport << " is very cool,i played a bit as well back in the day,not for long tho";
-	cout << "\nIf you could travel somewhere,where would you like to go?: ";//we asking where the player likes to travel
-	cout << "\n1.Europe\n2.Africa\n3.Asia\n4.North America\n5.South America\n6.Oceania: ";//the pool between what the player can choose
+	cout << "\n\nIf you could travel somewhere,where would you like to go,"<< name<< "?: ";//we asking where the player likes to travel
+	cout << "\n\n1.Europe\n2.Africa\n3.Asia\n4.North America\n5.South America\n6.Oceania: ";//the pool between what the player can choose
 	bool validchoice = false;
 	while (validchoice == false) {
 		cin >> choice;
