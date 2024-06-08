@@ -1,6 +1,2 @@
-﻿  dim.cpp
-  vin.cpp
-  Wittol_cpp.cpp
-  Generating Code...
-  LINK : C:\Users\User\Documents\GitHub\Wittol\wittol_cpp\Debug\Wittol_cpp.exe not found or not built by the last incremental link; performing full link
-  Wittol_cpp.vcxproj -> C:\Users\User\Documents\GitHub\Wittol\wittol_cpp\Debug\Wittol_cpp.exe
+﻿Wittol_cpp.obj : error LNK2005: _main already defined in dim.obj
+C:\Users\dimit\OneDrive\Έγγραφα\GitHub\Wittol\wittol_cpp\Debug\Wittol_cpp.exe : fatal error LNK1169: one or more multiply defined symbols found
